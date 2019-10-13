@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>强智教务系统验证码识别</title>
+</head>
+
+<body>
+  <p>
+    强智教务系统验证码识别 by Killer
+  </p>
+  <h3>请求地址</h3>
+  <p>
+    POST /predict
+  </p>
+  <h3>参数</h3>
+  <p>
+    image:图片文件
+  </p>
+  <h3>请求测试</h3>
+  <form method="post" action="/predict" enctype="multipart/form-data">
+    <input type="file" name="image"><br /><br />
+    <input type="submit">
+  </form>
+</body>
+
+</html>
